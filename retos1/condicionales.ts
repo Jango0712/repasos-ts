@@ -1,4 +1,4 @@
-let  zodiaco = (dia:number, mes:number): string => {
+const  zodiaco = (dia:number, mes:number): string => {
 if(mes<1 || mes>12 || dia<1 || dia>31){
     return "fecha invalida"
 } else if((mes ==2 && dia > 29) || (mes == 4 || mes == 6 || mes == 9 || mes == 11) && dia > 30){
@@ -45,9 +45,9 @@ else{
 }
 }
 
-console.log(zodiaco(7,12))
+// console.log(zodiaco(7,12))
 
-let continent =(country:string):void =>{
+ const continent =(country:string):void =>{
     if((country == "España") || (country == "Francia") || (country == "Portugal") || (country == "Alemania") || (country == "Italia")){
         console.log("Europa")
     }
@@ -69,13 +69,13 @@ let continent =(country:string):void =>{
 
 }
 
-continent("España");
- continent("Venezuela"); 
- continent("Japon"); 
- continent("Nigeria"); 
- continent("Australia");
+// continent("España");
+//  continent("Venezuela"); 
+//  continent("Japon"); 
+//  continent("Nigeria"); 
+//  continent("Australia");
 
-let isEven =(x:number):void =>{
+export const isEven =(x:number):void =>{
     if(x % 2 === 0){
         console.log("el número es par")
     }
@@ -84,6 +84,6 @@ let isEven =(x:number):void =>{
     }
 }
 
-isEven(6)
-isEven(3)
+// isEven(6)
+// isEven(3)
 

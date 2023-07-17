@@ -10,7 +10,7 @@ const hasEven = (array: number[]): boolean  => {
         return encontrado;
     }
 
-    console.log(hasEven([2,3,5,2]))
+    // console.log(hasEven([2,3,5,2]))
     
     function startWithM(array: string[]): boolean {
         let i = 0;
@@ -24,4 +24,4 @@ const hasEven = (array: number[]): boolean  => {
         return todosConM;
     }
 
-    console.log(startWithM(["Jeo","mar"]))
+    // console.log(startWithM(["Jeo","mar"]))
